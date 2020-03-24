@@ -11,6 +11,8 @@ class DDHero extends HTMLElement {
             background-position: center center;
             background-size: cover; 
             background-image: url("${this.getAttribute("hero-image")}");
+        }
+        .hero-banner:after{
             background: rgba(5,32,22,0.25);
         }
         .hero-banner p{
