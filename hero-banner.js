@@ -8,7 +8,8 @@ class DDHero extends HTMLElement {
         <style>
         .hero-banner{
             background-color: rgba(0,0,0,0.5);
-            background-img: url("${this.getAttribute("hero-image")}");
+            height: 600px;
+            background-image: url("${this.getAttribute("hero-image")}");
         }
         </style>
         <section class="hero-banner">
