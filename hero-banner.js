@@ -8,8 +8,13 @@ class DDHero extends HTMLElement {
         <style>
         .hero-banner{
             background-color: rgba(0,0,0,0.5);
-            height: 600px;
+            background-position: center center;
+            background-size: cover; 
             background-image: url("${this.getAttribute("hero-image")}");
+        }
+        .hero-banner p{
+            padding-bottom: 20rem;
+            padding-top: 8.125rem;
         }
         </style>
         <section class="hero-banner">
