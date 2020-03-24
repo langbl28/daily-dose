@@ -6,7 +6,7 @@ class DDFeature extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
-        html content
+        <h1>${this.getAttribute("feature-header")}</h1>
 
         `;
     }
@@ -14,4 +14,4 @@ class DDFeature extends HTMLElement {
 
 
     
-window.customElements.define('dailydose-cards', DDFeature);
+window.customElements.define('dd-feature', DDFeature);
